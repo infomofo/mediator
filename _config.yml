@@ -11,15 +11,15 @@ description: > # this means to ignore newlines until "email:"
 
 email: will.chiong@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/food_logo.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/background_image.png"
 
 name: 'Will Chiong'
 author: 'Will Chiong'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/author.png"
 
 paginate:	5
 
@@ -50,7 +50,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/infomofo
     desc:	Fork me on github
     share_url:
     share_title:
