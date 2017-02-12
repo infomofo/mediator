@@ -5,4 +5,5 @@ gem 'github-pages'
 gem 'bourbon'
 gem 'jemoji'
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
 gem 'jekyll-compose', group: [:jekyll_plugins]
