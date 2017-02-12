@@ -1,14 +1,7 @@
-mediator
+Will's Food Blog
 ========
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
-
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
+Forked from Mediator
 
 Features
 -------
@@ -19,14 +12,38 @@ Features
 * FontAwesome implemented for easy use of icons fonts
 * Free & Open Source Font usage
 
+I Added
+
+* Jekyll compose for command line composing
+* Jekyll Sitemap for potential SEO improvements
+
+TODO
+
+* Topic/Tag/Category pages
+* OpenGraph?
+* Embeds?
+* Analytics
+* Search Console
+* AMP?
+
 Getting Started
 ---
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the requried gems ([GitHub Pages](https://github.com/github/pages-gem), [Bourbon](https://github.com/thoughtbot/bourbon) and [Jekyll](https://github.com/jekyll/jekyll), [Jemoji](https://github.com/jekyll/jemoji)): `bundle install`
-- Run the jekyll server: `bundle exec jekyll serve`
+- Clone this repository
+- Install the requried gems: `bundle install`
+- Run the jekyll server: `bundle exec jekyll serve --drafts`
 
 You should have a server up and running locally at <http://localhost:4000>.
+
+Writing a new draft
+---
+- Start in a draft mode: `bundle exec jekyll draft "My new draft"`
+- `bundle exec jekyll publish _drafts/my-new-draft.md`
+- or specify a specific date on which to publish it: `bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24`
+
+Writing a new page or post directly
+---
+- `bundle exec jekyll page "My New Page"`
+- `bundle exec jekyll post "My New Post"`
 
 Configuration
 -----
@@ -72,7 +89,3 @@ Licensing
 ---------
 
 [MIT](https://github.com/dirkfabisch/mediator/blob/master/LICENCE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
-
-Contact
--------
-I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
