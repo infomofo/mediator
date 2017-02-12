@@ -45,6 +45,11 @@ Writing a new page or post directly
 - `bundle exec jekyll page "My New Page"`
 - `bundle exec jekyll post "My New Post"`
 
+Assets
+-----
+
+Favicon generated using http://www.xiconeditor.com/ in a process outlined here http://blog.teamtreehouse.com/how-to-make-a-favicon
+
 Configuration
 -----
 
